@@ -1,4 +1,4 @@
-# Nanopore Methylation Analysis Pipeline
+# Nanopore Bigaussian Methylation Thresholding Analysis Pipeline
 
 Pipeline for Oxford Nanopore methylation analysis, threshold optimisation, and model/q-score benchmarking using AUC, GMM (bi-Gaussian), and MCC analyses. 
 
