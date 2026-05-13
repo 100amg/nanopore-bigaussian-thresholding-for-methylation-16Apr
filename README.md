@@ -34,6 +34,50 @@ repo/
 | `gaussian_new_25Apr.py`               | MCC threshold evaluation                    |
 | `plot_mcc_vs_threshold.py`            | MCC comparison plots                        |
 
+## Input Directory Structure
+
+```bash
+## Input Directory Structure
+
+project/
+├── pod5_data/
+│   ├── AHEAD/
+│   │   ├── sample_1/
+│   │   ├── sample_2/
+│   │   └── ...
+│   │
+│   └── EpiC/
+│       ├── sample_1/
+│       ├── sample_2/
+│       └── ...
+│
+├── fast5_data/
+│   ├── AHEAD/
+│   │   ├── sample_1/
+│   │   ├── sample_2/
+│   │   └── ...
+│   │
+│   └── EpiC/
+│       ├── sample_1/
+│       ├── sample_2/
+│       └── ...
+│
+├── reference.fasta
+├── reference.fasta.fai
+│
+├── dorado_fast_comparison.sh
+├── dorado_hac_comparison.sh
+├── dorado_sup_comparison.sh
+├── guppy_hac_comparison.sh
+│
+├── extract_modkit_from_bam.py
+├── auc_model_qscore_analysis.py
+├── bigaussian_threshold_analysis.py
+├── gaussian_new_EpiC_5_reads_filter.py
+├── gaussian_new_25Apr.py
+└── plot_mcc_vs_threshold.py
+```
+
 ## Workflow
 
 ### 1. Basecalling
